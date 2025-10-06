@@ -920,3 +920,6 @@ Output:
 ![alt text](Praktikum_2/images/5.jpg)
 
 ![alt text](Praktikum_2/images/6.jpg)
+
+- i have done push on github
+![alt text](Praktikum_2/images/7.png)
