@@ -20,7 +20,7 @@ Does the UI need tabs?
 Pay attention to areas that require alignment, padding, or borders.
 First, identify the larger elements. In this example, four elements are arranged in a column: an image, two rows, and a block of text.
 
-![alt text](images/Prak1/3.png)
+![alt text](Praktikum1/images/Prak1/3.png)
 
 Step 4: Implement the title row
 First, you'll create the left column for the title. Add the following code at the top of the method build()inside the class MyApp:
@@ -67,7 +67,7 @@ First, you'll create the left column for the title. Add the following code at th
     );
 ```
 Output:
-![alt text](images/Prak1/5.png)
+![alt text](Praktikum1/images/Prak1/5.png)
 
 ## Practical 2: Implementation of button row
 Complete the following practical steps by continuing from the previous practical.
@@ -110,7 +110,7 @@ class MyApp extends StatelessWidget {
 }
 ```
 Output:
-![alt text](images/Prak2/1.png)
+![alt text](Praktikum1/images/Prak2/1.png)
 
 ### Step 2: Create a buttonSection widget
 Create a function to add an icon directly to the column. The text is inside Containerwith a margin only at the top, separating the text from the icon.
@@ -131,7 +131,7 @@ Widget buttonSection = Row(
 );
 ```
 Output:
-![alt text](images/Prak2/2.png)
+![alt text](Praktikum1/images/Prak2/2.png)
 
 ### Step 3: Add a button section to the body
 Add variables buttonSectionto it bodylike this:
@@ -155,7 +155,7 @@ Add variables buttonSectionto it bodylike this:
     );
 ```
 Output:
-![alt text](images/Prak2/2.png)
+![alt text](Praktikum1/images/Prak2/2.png)
 
 ## Practical 3: Implementation of text section
 Complete the following practical steps by continuing from the previous practical.
@@ -192,7 +192,7 @@ Add a variable widget textSectionto it bodylike this:
             textSection, // <--- ditambahkan
 ```
 Output:
-![alt text](images/Prak3/1.png)
+![alt text](Praktikum1/images/Prak3/1.png)
 
 ## Practical 4: Implementation of image section
 Complete the following practical steps by continuing from the previous practical.
@@ -200,7 +200,7 @@ Complete the following practical steps by continuing from the previous practical
 ### Step 1: Prepare image assets
 You can search for images online that you want to display. Create a folder imagesin the root of your layout_flutter project . Place the image files in the folder images, then set the filename to something pubspec.yamllike this:
 
-![alt text](images/Prak4/1.png)
+![alt text](Praktikum1/images/Prak4/1.png)
 
 An example of the image file name above islake.jpg
 
@@ -237,7 +237,7 @@ In this final step, set all elements in ListView, not Column, because ListViewit
           children: [
 ```
 Output:
-![alt text](image.png)
+![alt text](Praktikum1/images/Prak4/2.png)
 
 ## 7. Tugas Praktikum 1
   1. Selesaikan Praktikum 1 sampai 4, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
@@ -247,7 +247,7 @@ Output:
 ANSWER
   1. I have made the report above.
   2. I have implemented it appropriately in my practicum.
-  3. ![alt text](images/Prak_assignment/1.png)
+  3. ![alt text](Praktikum1/images/Prak_assignment/1.png)
 
 
 ## Lab 5: Building Navigation in Flutter
